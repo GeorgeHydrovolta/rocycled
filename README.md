@@ -1,21 +1,25 @@
-# HydroVolta Full Website Draft
+# Hydrovolta NV — Production Website
 
-Static multi-page website draft built from the uploaded SonixED/HydroVolta asset package.
+Static multi-page site. Deploy directly via Cloudflare Pages.
 
-Core strategy:
-- Groundwater desalination is the primary business.
-- Brine valorization is a complementary value layer.
-- BPED is introduced only for selected acid/base recovery pilots from suitable brines.
-- Calcium hydroxide and magnesium hydroxide are positioned as pilot pathways, not guaranteed outputs.
+## Pages
+- index.html — Enterprise hub homepage
+- groundwater.html — Core business: high-recovery groundwater desalination
+- brine-valorization.html — Integrated BPED brine valorization capability
+- technology.html — SonixED™ and BPED technology deep-dive with reaction chemistry
+- systems.html — SalinBloc™ containerised units and skid-mounted systems
+- applications.html — Sector applications across 6 target markets
+- projects.html — Morocco (active), Perth (utility pilot), Brazil (LOI), Saudi (MOU)
+- about.html — Company history, leadership, credentials, registry
+- contact.html — Engineering assessment intake form with project stream routing
+- privacy.html — Privacy policy
 
-Pages:
-- index.html
-- groundwater.html
-- brine-valorization.html
-- technology.html
-- systems.html
-- applications.html
-- projects.html
-- about.html
-- contact.html
-- privacy.html
+## Assets required
+All pages reference `images/` directory. Copy existing images folder.
+
+## Deployment
+Upload folder to Cloudflare Pages. HTTPS automatic. No build step required.
+
+## Design system
+css/site.css — unified stylesheet (Barlow Condensed + Barlow, navy/gold tokens)
+js/site.js — mobile nav, scroll reveal, auto year
